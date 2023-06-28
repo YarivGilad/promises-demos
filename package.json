@@ -1,0 +1,34 @@
+{
+  "name": "promises-demos",
+  "version": "1.0.0",
+  "description": "experimenting with promises, running in node.js",
+  "type": "module",
+  "scripts": {
+    "0": "nodemon 0_problem.mjs",
+    "1": "nodemon 1_each_serial_collection.mjs",
+    "2": "nodemon 2_map_parallel_collection.mjs",
+    "3": "nodemon 3_all_parallel_array.mjs",
+    "4": "nodemon 4_props_parallel_obj.mjs",
+    "5": "nodemon 5_race_some.mjs",
+    "6": "nodemon 6-pop-challenge-1"
+  },
+  "keywords": [
+    "promises",
+    "bluebird",
+    "node-fetch"
+  ],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/YarivGilad/promises-demos.git"
+  },
+  "author": "Yariv Gilad <https://yarivgilad.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@ajar/marker": "^1.3.3",
+    "bluebird": "^3.7.2",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
